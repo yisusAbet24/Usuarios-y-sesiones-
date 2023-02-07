@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/scripts.js"></script>
+    <title>index</title>
+    <link rel="stylesheet" href="css/float.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+
+
+    <div class="page-nav">
+          
+        <h1>Tienda-<strong>Online</strong>
+            <img class="iconos" src="https://cdn-icons-png.flaticon.com/512/8465/8465537.png" title="+" alt="">
+            <div>
+                
+            </div>
+        </h1>
+
+
+
+            <header class="header">
+
+                    <nav>
+                        <ul class="nav-links">
+                            <li><a href="#"><img class="iconos" src="https://cdn-icons-png.flaticon.com/512/561/561196.png" alt=""></a></li>
+                            <li><a href="#"><img class="iconos" src="https://cdn-icons-png.flaticon.com/512/2211/2211057.png" alt=""></a></li>
+                            <li><a href="#"><img class="iconos" src="https://cdn-icons-png.flaticon.com/512/726/726570.png" alt=""></a></li>
+                            <li><a href="#"><img class="iconos" src="https://cdn-icons-png.flaticon.com/512/64/64572.png" alt=""></a></li>
+                            <li><a href="#"><img class="iconos" src="https://cdn-icons-png.flaticon.com/512/561/561103.png" alt=""></a></li>
+                            <li><a href="#"><img class="iconos" src="https://cdn-icons-png.flaticon.com/512/1170/1170627.png" alt=""></a></li>
+                            <li><a href="#"><img class="iconos" src="https://cdn-icons-png.flaticon.com/512/919/919275.png" alt=""></a></li>
+                            <li><a href="#"><img class="iconos" src="https://cdn-icons-png.flaticon.com/512/44/44255.png" alt=""></a></li>
+
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/8336/8336213.png" class="icon2" title="" alt="">
+                            
+                            
+                                  </div>
+                            </a></li>
+                        </ul>
+                    </nav>
+                    
+                    <style>
+         
+                        
+                        #navlist {
+                            background-color: #0074D9;
+                            position: absolute;
+                            width: 100%;
+                        }
+                         
+                        #navlist a {
+                            float:left;
+                            display: block;
+                            color: #f2f2f2;
+                            text-align: center;
+                            padding: 13px;
+                            text-decoration: none;
+                            font-size: 15px;
+                        }
+                        .navlist-right{
+                            float:right;
+                        }
+
+                        #navlist a:hover {
+                            background-color: #ddd;
+                            color: black;
+                        }
+
+                        .search input[type=text]{
+                            width:300px;
+                            height:25px;
+                            border-radius:25px;
+                            border: none;
+                 
+                        }
+                         
+                        .search{
+                            float:right;
+                            margin:7px;
+                 
+                        }
+                         
+                        .search button{
+                            background-color: #0074D9;
+                            color: #f2f2f2;
+                            float: right;
+                            padding: 5px 20px;
+                            margin-right: 0px;
+                            font-size: 0px;
+                            border: none;
+                            cursor: pointer;
+                        }
+                    </style>
+                </head>
+                 
+                <body>
+                     
+                    <div id="navlist">
+                        <a href="#">Inicio</a>
+                        <a href="#">Tus Compras</a>
+                        <a href="#">Nuevo</a>
+                        <a href="#">Mi cuenta</a>
+                        <div class="search">
+                             
+                            <form action="#">
+                                <input type="text"
+                                    placeholder=" Buscar..."
+                                    name="search">
+                                <button>
+                                    <i class="fa fa-search"
+                                        style="font-size: 18px;">
+                                    </i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+            </header>
+
+
+        <hr>
+    </div>
+
+    <hr>
+    <hr>
+    <hr>
+
+    <div class="page-content">
+        <div class="product-container">
+            <h3>Camiseta de color azul</h3>
+            <h4>para<strong>: hombre</strong></h4>
+              <img src="https://ressalta.ec/wp-content/uploads/2016/06/camisa-mc-004.jpg" height="350px" alt="">
+                <h2>$550</h2>
+            <button class="button" onclick="add('product-2', 550), mostrar3()">Agregar</button>
+            <script type="text/javascript">
+                function mostrar3(){
+                    swal('Se agrego con exito','contionua con tus compras','success');
+                }
+            </script>
+        </div>
+
+        <div class="product-container">
+            <h3>Sueter de color Marrón</h3>
+            <h4>para: <strong>hombre</strong></h4>
+              <img src="https://imgs.search.brave.com/A6y20USSa_ISNCBhNmdJehNi2IUadevdzRbdoPtHOqI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/Z2FtYXJyYS5jb20u/cGUvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjAvMDQvNjEtMS1z/Y2FsZWQuanBn" height="350px" alt="">
+              <h2>$350</h2>
+            <button class="button" onclick="add('product-3', 350), mostrar()">Agregar</button>
+            <script type="text/javascript">
+                function mostrar(){
+                    swal('Se agrego con exito','contionua con tus compras','success');
+                }
+            </script>
+        </div>
+
+        <div class="product-container">
+            <h3>Pantalon color Negro</h3>
+            <h4>para: <strong>hombre</strong></h4>
+              <img src="https://imgs.search.brave.com/RyEe6Wp8NFpCWfqF6IDOVRRyQpu9TTFmwiHbPE1e6SY/rs:fit:800:800:1/g:ce/aHR0cHM6Ly93d3cu/c2VxdW9pYXNwZWVk/LmNvbS5jby8yNzI5/L3BhbnRhbG9uZXMt/Y29uLXByb3RlY2Np/b25lcy1wYXJhLW1v/dG8tbW90b2NpY2xp/c3RhLWFudGlmcmlj/Y2lvbi1tYWxsYWRv/LWNsaW1hLWNhbGlk/by1tYXJjYS1zZXF1/b2lhLW1vZGVsby1t/ZXNoLW8tbWFsbGFk/by1mdWxsLWZyLmpw/Zw" height="350px" alt="">
+              <h2>$300</h2>
+            <button class="button" onclick="add('product-4', 300), mostrar5()">Agregar</button>
+            <script type="text/javascript">
+                function mostrar5(){
+                    swal('Se agrego con exito','contionua con tus compras','success');
+                }
+            </script>
+        </div>
+
+        <div class="product-container">
+            <h3>Pantalon color Vino</h3>
+            <h4>para: <strong>mujer</strong></h4>
+              <img src="https://imgs.search.brave.com/CniQt2udGRlrhwYK0CydWsGich9LdZcbCFRtbKfqc7M/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zMS5l/ZXN0YXRpYy5jb20v/MjAxOC8xMi8xMi9j/b3Jhem9uL2VzdGls/by9lbF9lc3RpbG9f/MzYwMjI2MzU1XzEw/OTU5MTIzM18xMjgw/eDE3MDYuanBn" height="385px" alt="">
+              <h2>$250</h2>
+            <button class="button" onclick="add('product-5', 250), mostrar6()">Agregar</button>
+            <script type="text/javascript">
+                function mostrar6(){
+                    swal('Se agrego con exito','contionua con tus compras','success');
+                }
+            </script>
+        </div>
+
+        <div class="product-container">
+            <h3>pantalon mershka</h3>
+            <h4>para: <strong>mujer</strong></h4>
+              <img src="https://imgs.search.brave.com/IV6iJcqrokRXbhZioJff5E8X7YUczMyDYJh2RFsl87g/rs:fit:370:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC50/RmZ4dTF2di1lYlg5/R1FUZW5kcURBSGFK/ZSZwaWQ9QXBp" height="390px" alt="">
+              <h2>$200</h2>
+              <h4></h4>
+            <button class="button" onclick="add('product-6', 200), mostrar7()">Agregar</button>
+            <script type="text/javascript">
+                function mostrar7(){
+                    swal('Se agrego con exito','contionua con tus compras','success');
+                }
+            </script>
+        </div>
+
+        <div class="product-container">
+            <h3>pants deportivo</h3>
+            <h4>para: <strong>Hombre</strong></h4>
+              <img src="https://imgs.search.brave.com/AgmNie1RU-PsmgaMBqotzEUEyONT1tmn3XJRhR4b4J8/rs:fit:1200:1200:1/g:ce/aHR0cDovL2NkbjEu/d2Vhc3kuaW8vdXNl/cnMvbm9ydGVtb2Rh/LXNpdGUvY2F0YWxv/Zy9maWxlXzE1OTA2/NzM4ODcyMDQ3Lmpw/ZWc" height="390px" alt="">
+              <h2>$220</h2>
+            <button class="button" onclick="add('product-7', 220), mostrar8()">Agregar</button>
+            <script type="text/javascript">
+                function mostrar8(){
+                    swal('Se agrego con exito','contionua con tus compras','success');
+                }
+            </script>
+        </div>
+
+        <div class="fabs" onclick="toggleBtn()">
+            <div class="action">
+              <i class="fas fa-plus" id="add">
+                <button id="total-pagar" class="button-2" onclick="pay()">total a pagar: </button>
+              </i>
+              <i class="fas fa-times" id="remove" style="display: none"></i>
+            </div>
+      
+           <!--- <div class="btns">
+              <a href="#" class="btn" style="background: #3b5999">
+                <i class="fab fa-facebook-f"><img class="img" src="https://cdn-icons-png.flaticon.com/512/8465/8465537.png" alt=""></i></a>
+            </div>
+            */--->
+          </div>
+        </body>
+
+        
+                <div class="fabs" onclick="toggleBtn()">
+      <div class="action">
+        <i class="fas fa-plus" id="add">+</i>
+        <i class="fas fa-times" id="remove" style="display: none"></i>
+      </div>
+
+      <div class="btns">
+        <a href="#">
+          <i class="fab fa-facebook-f"><img class="img" src="https://cdn-icons-png.flaticon.com/512/8465/8465537.png" alt=""></i></a>
+      </div>
+
+    </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
