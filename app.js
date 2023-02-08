@@ -111,14 +111,13 @@ app.post('/auth', async(req, res)=>{
 //autenticar 
 app.get('/', (req, res)=>{
     if ( req.session.loggedin) {
-        res.render('index',{
+        res.render('home',{
             login: true,
             name: req.session.usuario
         })
     }else{
         res.render('index', {
-            login: false,
-            name: 'debe iniciar sesión'
+            
         })
     }
 });
