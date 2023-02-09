@@ -9,5 +9,7 @@ Este es un proyecto de la universidad en donde realizaremos una aplicación web 
 
 #Para que la página web funcione debemos crear una base de datos y una tabla con los siguientes nombres:
 ![base](https://user-images.githubusercontent.com/124333564/217704644-5cee4c23-0c9b-40dd-a25e-cbd1d5f291a2.png)
+
+
 #Después debemos crear 4 filas, la primera será la id, la cual será auto_increment, la segunda se llamará “user”, la tercera se llamará “correo” y por último la cuarta se llamada “pass” este último debe tener un varchar mayor a 60, ya que la contraseña estará encriptada y necesita un espacio mayor a 60.
 ![base2](https://user-images.githubusercontent.com/124333564/217705509-eddab77a-b1bf-4b38-a760-ad526135ccb4.png)
